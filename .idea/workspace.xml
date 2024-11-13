@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="Exemple controller">
+    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/configuration/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/health/CustomServiceHealthIndicator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/HexagonalApiExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/HexagonalApiExampleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -63,9 +69,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.HexagonalApiExampleApplication.executor": "Debug",
     "JUnit.ExampleControllerTest.executor": "Run",
-    "JUnit.HexagonalApiExample in HexagonalApiExample.executor": "Run",
-    "JUnit.java in HexagonalApiExample.executor": "Run",
+    "JUnit.HexagonalApiExample in HexagonalApiExample.executor": "Debug",
+    "JUnit.java in HexagonalApiExample.executor": "Debug",
     "Maven.HexagonalApiExample [clean].executor": "Run",
     "Maven.HexagonalApiExample [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,7 +81,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -83,7 +90,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.java in HexagonalApiExample">
+  <component name="RunManager">
     <configuration name="ExampleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HexagonalApiExample" />
       <extension name="coverage">
@@ -115,6 +122,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ExampleControllerTest" />
+      <item itemvalue="JUnit.HexagonalApiExample in HexagonalApiExample" />
+      <item itemvalue="JUnit.java in HexagonalApiExample" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in HexagonalApiExample" />
@@ -148,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731459756991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exemple controller">
+      <option name="closed" value="true" />
+      <created>1731459858461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731459858461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
