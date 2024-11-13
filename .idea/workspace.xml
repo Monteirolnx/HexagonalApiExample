@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="Commit inicial">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/application/ExampleServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="Exemple controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +44,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -68,10 +69,12 @@
     "Maven.HexagonalApiExample [clean].executor": "Run",
     "Maven.HexagonalApiExample [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -137,11 +140,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731458554324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exemple controller">
+      <option name="closed" value="true" />
+      <created>1731459756991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731459756991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
+    <MESSAGE value="Exemple controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemple controller" />
   </component>
 </project>
