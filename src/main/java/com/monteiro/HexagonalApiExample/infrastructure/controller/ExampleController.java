@@ -2,11 +2,10 @@ package com.monteiro.HexagonalApiExample.infrastructure.controller;
 
 import com.monteiro.HexagonalApiExample.application.ExampleService;
 import com.monteiro.HexagonalApiExample.domain.Example;
+import com.monteiro.HexagonalApiExample.infrastructure.exception.ResourceNotFoundException;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Controlador REST para o endpoint de exemplo.
@@ -30,7 +29,7 @@ public class ExampleController {
      * @return Response com o ID e uma mensagem de confirmação
      */
     @PostMapping
-    public ExampleResponse getExample(@RequestBody ExampleRequest request) {
+    public ExampleResponse getExample(@Valid @RequestBody ExampleRequest request) {
         Example example = exampleService.getExampleById(request.getId());
 
         ExampleResponse response = new ExampleResponse();
@@ -38,5 +37,14 @@ public class ExampleController {
         response.setMessage(example.getMessage());
 
         return response;
+    }
+
+    @GetMapping("/test-exception/{id}")
+    public Example testException(@PathVariable int id) {
+        // Este método irá lançar ResourceNotFoundException se o ID for inválido
+        if (id == 99) {
+            throw new ResourceNotFoundException("Recurso com ID " + id + " não encontrado");
+        }
+        return exampleService.getExampleById(id);
     }
 }

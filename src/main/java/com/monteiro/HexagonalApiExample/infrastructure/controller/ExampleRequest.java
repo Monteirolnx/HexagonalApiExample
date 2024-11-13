@@ -1,5 +1,6 @@
 package com.monteiro.HexagonalApiExample.infrastructure.controller;
 
+import jakarta.validation.constraints.Min;
 import lombok.Data;
 
 /**
@@ -8,5 +9,7 @@ import lombok.Data;
  */
 @Data
 public class ExampleRequest {
+
+    @Min(value = 1, message = "O ID deve ser maior que 0")
     private int id;
 }
