@@ -41,7 +41,7 @@ public class ExampleController {
 
     @GetMapping("/test-exception/{id}")
     public ExampleDomain testException(@PathVariable int id) {
-        // Este método irá lançar ResourceNotFoundException se o ID for inválido
+        // Este metodo irá lançar ResourceNotFoundException se o ID for inválido
         if (id == 99) {
             throw new ResourceNotFoundException("Recurso com ID " + id + " não encontrado");
         }

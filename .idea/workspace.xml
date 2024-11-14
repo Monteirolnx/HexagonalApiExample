@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/home/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/application/ExampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/application/example/ExampleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/application/ExampleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/application/example/ExampleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/domain/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/domain/example/ExampleDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/example/ExampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/example/ExampleRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/controller/example/ExampleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/exception/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monteiro/HexagonalApiExample/infrastructure/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/application/ExampleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/application/ExampleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monteiro/HexagonalApiExample/infrastructure/controller/ExampleController.java" afterDir="false" />
-    </list>
+    <list default="true" id="58cb6090-afd5-4a2d-ac2a-5828b8de810e" name="Changes" comment="Ajustes projeto." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +47,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -196,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731464051984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajustes projeto.">
+      <option name="closed" value="true" />
+      <created>1731544411494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731544411494</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,7 +199,8 @@
     <MESSAGE value="Exemple controller" />
     <MESSAGE value="Swagger e HealthCheck" />
     <MESSAGE value="Ainda falta ajustar validação." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ainda falta ajustar validação." />
+    <MESSAGE value="Ajustes projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes projeto." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
