@@ -1,8 +1,10 @@
 package com.monteiro.HexagonalApiExample.infrastructure.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.monteiro.HexagonalApiExample.application.ExampleService;
-import com.monteiro.HexagonalApiExample.domain.Example;
+import com.monteiro.HexagonalApiExample.application.example.ExampleService;
+import com.monteiro.HexagonalApiExample.domain.example.ExampleDomain;
+import com.monteiro.HexagonalApiExample.infrastructure.controller.example.ExampleController;
+import com.monteiro.HexagonalApiExample.infrastructure.controller.example.ExampleRequest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -34,12 +36,12 @@ class ExampleControllerTest {
         request.setId(1);
 
         // Configura o exemplo de retorno para o mock
-        Example example = new Example();
-        example.setId(1);
-        example.setMessage("Ok - 1");
+        ExampleDomain exampleDomain = new ExampleDomain();
+        exampleDomain.setId(1);
+        exampleDomain.setMessage("Ok - 1");
 
         // Configura o comportamento do mock
-        when(exampleService.getExampleById(1)).thenReturn(example);
+        when(exampleService.getExampleById(1)).thenReturn(exampleDomain);
 
         // Executa o teste
         mockMvc.perform(post("/api/example")

@@ -1,6 +1,6 @@
-package com.monteiro.HexagonalApiExample.application;
+package com.monteiro.HexagonalApiExample.application.example;
 
-import com.monteiro.HexagonalApiExample.domain.Example;
+import com.monteiro.HexagonalApiExample.domain.example.ExampleDomain;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 public class ExampleServiceImpl implements ExampleService {
 
     @Override
-    public Example getExampleById(int id) {
+    public ExampleDomain getExampleById(int id) {
         // Simulação de um retorno com base no ID fornecido
-        Example example = new Example();
-        example.setId(id);
-        example.setMessage("Ok - " + id);
-        return example;
+        ExampleDomain exampleDomain = new ExampleDomain();
+        exampleDomain.setId(id);
+        exampleDomain.setMessage("Ok - " + id);
+        return exampleDomain;
     }
 }
